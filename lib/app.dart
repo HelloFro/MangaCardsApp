@@ -1,18 +1,20 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home.dart';
+import 'package:manga_cards_app/screens/manga_detail.dart';
+import 'package:manga_cards_app/screens/home.dart';
 
 class App extends StatelessWidget {
-  // This widget is the root of your application.
+  // routes and theme
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Home(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
+      themeMode: ThemeMode.system,
+      home: Home(),
+      routes: {
+        MangaDetail.title: (context) => MangaDetail(),
+      },
     );
   }
 }
