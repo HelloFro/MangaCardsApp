@@ -25,3 +25,4 @@ Scroll through the top manga Netflix style.
 ## Notes
 
 - API sometimes has problems fetching certain types of Manga(Top) and may take a few of retries to load properly
+- Spotted-ness seen in the [Preview](#Preview) does not show up on-device or in-app
