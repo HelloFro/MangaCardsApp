@@ -4,6 +4,11 @@ import 'package:jikan_api/jikan_api.dart';
 import 'package:manga_cards_app/widgets/manga_list.dart';
 
 class Home extends StatelessWidget {
+  const Home({Key key}) : super(key: key);
+
+  // Potential for Localization
+  static String title = "home";
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
