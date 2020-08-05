@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "292083260734",
+    "firebase_url": "https://manga-cards-app.firebaseio.com",
+    "project_id": "manga-cards-app",
+    "storage_bucket": "manga-cards-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292083260734:android:88807e4183e2b25dc2206f",
+        "android_client_info": {
+          "package_name": "com.hellofro.manga_cards_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292083260734-p7bjdm7vm856mlbmbausdki0dqfdmdrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjiDvewNT_HNN8-UR6pXHg5GtPA8b7CPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292083260734-p7bjdm7vm856mlbmbausdki0dqfdmdrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
