@@ -13,6 +13,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       home: Home(),
       routes: {
+        Home.title: (context) => Home(),
         MangaDetail.title: (context) => MangaDetail(),
       },
     );
