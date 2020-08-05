@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:manga_cards_app/delegate.dart';
 import 'package:manga_cards_app/screens/manga_detail.dart';
 import 'package:manga_cards_app/screens/home.dart';
 
@@ -11,8 +12,9 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      home: Home(),
+      home: Delegate(),
       routes: {
+        Delegate.title: (context) => Delegate(),
         Home.title: (context) => Home(),
         MangaDetail.title: (context) => MangaDetail(),
       },
