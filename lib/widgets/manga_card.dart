@@ -49,7 +49,7 @@ class MangaCard extends StatelessWidget {
           ),
         ],
       ),
-      onTap: () => Navigator.pushNamed(context, MangaDetail.title, arguments: MangaDetailArguments(top, heroTag)),
+      onTap: () => Navigator.pushNamed(context, MangaDetail.title, arguments: MangaDetailArguments(top: top, heroTag: heroTag)),
     );
   }
 }

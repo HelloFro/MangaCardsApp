@@ -4,5 +4,5 @@ class MangaDetailArguments {
   final Top top;
   final String heroTag;
 
-  MangaDetailArguments(this.top, this.heroTag);
+  MangaDetailArguments({this.top, this.heroTag});
 }
