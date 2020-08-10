@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:manga_cards_app/delegate.dart';
-import 'package:manga_cards_app/screens/manga_detail.dart';
 import 'package:manga_cards_app/screens/home.dart';
+import 'package:manga_cards_app/screens/manga_detail.dart';
 
 class App extends StatelessWidget {
   // routes and theme
