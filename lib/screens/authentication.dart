@@ -7,8 +7,11 @@ class Authentication extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Login(),
+    return WillPopScope(
+      onWillPop: () => Future.value(false),
+          child: Scaffold(
+        body: Login(),
+      ),
     );
   }
 }
