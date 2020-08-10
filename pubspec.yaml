@@ -25,10 +25,12 @@ dependencies:
     sdk: flutter
 
   # google services
+  # Google services
   cloud_firestore: ^0.13.7
   firebase_auth: ^0.16.1
   
   # login
+  # Login
   flutter_login: ^1.0.14
 
   # Pagination
